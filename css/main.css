@@ -1,0 +1,299 @@
+
+body { 
+	font-family: roboto,sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+}
+.site-header,.content,.footer{
+	margin: 0 19%;
+	position: relative;*/
+	height: auto;
+}
+.top-line{
+	padding-top: 70px;
+}
+.site-header{
+	height: 226px;
+}
+.logo img {
+	width: 128px;
+	height: auto;
+}
+.phone{
+	width: auto;
+	height: auto;
+	position: absolute;
+	top:90px;
+	right: 0px;
+}
+
+.phone a{
+	text-decoration: none;
+	color:#1a1a1a;
+	font-weight: 600;
+	font-size: 19px;
+	white-space: nowrap;
+}
+.header-content {
+	margin-bottom:40px;
+}
+
+p{
+	margin: 0px;
+	font-size: 18px;
+	white-space: normal;
+}	
+
+.strong{
+	margin: 0px;
+	font-size: 25px;
+	font-weight: 600;
+	padding-top: 7px;
+}
+.small{
+	font-size: 13px;
+	color:#909090;
+	padding-top: 10px;
+}
+.ruble{
+	height: 26px;
+	font-size: 26px;
+	font-weight: 600;
+	color:#231F20;
+	padding-top: 20px;
+}
+.partner-info{
+	float:left;
+	width:375px;
+}
+
+.partner-history{
+	margin-left: 400px;
+	line-height: 1.3;
+}
+.history{
+	font-size: 15px;
+}
+.lorems{
+	margin-top: 65px;
+	padding:20px 40px;
+	border: 5px solid #dcdcdc;
+	border-radius: 60px;
+	font-weight: 700;
+	font-size: 15px;
+	position: relative;
+}
+.lorems:before { 
+	content: ' '; 
+	position: absolute; 
+	width: 0px; 
+	height: 0; 
+	left: 40px; 
+	top: -50px; 
+	border: 25px solid; 
+	border-color:  transparent transparent #dcdcdc #dcdcdc; 
+}
+.lorems:after { 
+	content: ' '; 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	left: 45px; 
+	top: -40px; 
+	border: 25px solid; 
+	border-color:  transparent transparent #FFFFFF #FFFFFF; 
+}
+.image-content{
+	margin-top: 65px;
+}
+.image img{
+width: 49%;
+height: auto;
+}
+article h3{
+	margin-bottom:6px; 
+}
+.costs_profit{
+	margin-top:35px; 
+	border: 5px solid #E9E9E9;
+	padding:5px 23px;
+}
+.costs{
+	padding-bottom: 30px;
+	border-bottom: 1px solid #BEBEC0;
+}
+.costs div,.profit div{
+	display: inline-block;
+}
+.costs div:nth-child(even){
+	margin-right: 40px;
+}
+.profit div{
+	margin-right: 30px;
+	float:left;
+}
+.profit .ruble{
+padding-top: 7px;
+}
+.profit {
+	margin: 15px 0px;
+}
+.profit:after{
+	content: '';
+	clear:both;
+	display:table;
+}
+.review{
+	padding: 50px 0px;
+	background-image:url(image/back.png);
+	background-repeat:repeat; 
+	background-color: rgba(16,16,16,0.82);
+}
+.review-main{
+	margin: 0 19%;
+	height: auto;
+}
+.review-main h1{
+	font-size: 27px;
+	margin-bottom: 35px;
+	color:#fff;
+
+}
+.review-foto{
+	float:left;
+	width: 375px;
+}
+
+.review-form{
+	margin-left: 400px;
+}
+.review-form h3{
+	color:#028e5d;
+	margin-bottom: 10px;
+
+}
+.review-form input[type="text"],button{
+	width:470px;
+	border-radius: 40px;
+	padding: 20px; 
+	background-color: #e8e8e8;
+	border: none;
+	margin: 15px 0px;
+}
+
+.review-form p{
+	color:#fff;
+	padding-left: 20px;
+	font-weight: 300;
+	margin-bottom: 15px;
+}
+
+.review-form:after{
+	content: '';
+	clear:both;
+	display:table;
+}
+button{
+	width:510px;
+}
+form{
+	position: relative;
+}
+input[type="radio"]{
+	position: relative;
+	top:12px;
+	padding-top:15px;
+	float:left;
+	color:#028e5d;
+	-webkit-transform: scale(3);
+	   -moz-transform: scale(3);
+	    -ms-transform: scale(3);
+	     -o-transform: scale(3);
+	        transform: scale(3);
+	    margin-right: 20px;
+	    margin-bottom: 15px;
+}
+button{
+	background-color: #028e5d;
+	color:#e8e8e8;
+	font-size:18px ;
+}
+ .review-form .green_arrow{
+	margin: 50px 0px 20px 300px;
+	color:#028e5d;
+}
+.footer{
+	padding:100px 0px;
+}
+.footer:after{
+	content: '';
+	clear:both;
+	display:table;
+}
+.footer div{
+	width: 33%;
+	float:left;
+}
+.left p.small{
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+.left a{
+	text-decoration: none;
+}
+.middle{
+	
+}
+.middle .nav{
+	margin-top: 40px;
+}
+.middle a{
+	display: block;
+	text-decoration: none;
+}
+.right a{
+	display: block;
+	text-decoration: none;
+	color:black;
+	text-align: right;
+}
+.right p{
+	text-align: right;
+}
+.mail{
+	color:inherit;
+}
+
+
+
+
+
+
+@media(max-width: 1200px){
+	.image img{
+		width: 98%;
+		height: auto;
+	}
+.partner-info{
+	width: 100%;
+	margin-bottom: 35px;
+}
+
+.partner-history{
+	margin-left: 0px;
+	line-height: 1.3;
+}
+
+.costs div,.profit div{
+	display: block;
+	float: none;
+}
+
+.review-foto{
+	width: 100%;
+	margin-bottom: 35px
+}
+.review-form{
+	margin-left: 0px;
+
+}
